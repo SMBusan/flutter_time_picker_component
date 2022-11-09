@@ -52,7 +52,7 @@ class DisplayWheel extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 3.0),
         child: ListWheelScrollView.useDelegate(
           controller: controller,
-          itemExtent: 36,
+          itemExtent: 50,
           physics: disabled
               ? const NeverScrollableScrollPhysics()
               : const FixedExtentScrollPhysics(),
